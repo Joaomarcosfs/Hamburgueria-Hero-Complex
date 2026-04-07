@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Complex</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts - Pacifico + Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pacifico&display=swap"
+        rel="stylesheet">
+
+    <!-- Seu CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="sticky-top">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between py-3">
+                <!-- Logo menor -->
+                <div class="d-flex align-items-center gap-2">
+                    <img src="img/Logo.png" alt="Hero Complex" class="logo-img">
+                    <h1 class="logo-text mb-0">Hero Complex</h1>
+                </div>
+
+                <!-- Menu -->
+                <nav class="d-flex gap-4">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#promocoes" class="nav-link">Promoção</a>
+                    <a href="#sobre" class="nav-link">Sobre</a>
+                    <a href="#contatos" class="nav-link">Contatos</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- 1. HOME / Boas-vindas -->
+        <section id="home" class="welcome-section py-5 text-center">
+            <div class="container">
+                <div class="welcome-box mx-auto">
+                    <h2 class="welcome-title">Bem vindo a Hero Complex</h2>
+                    <a href="#promocoes" class="nav-link btn-custom">Promoções aqui!</a>
+                    <img src="img/Hamburgue.png" alt="Um grande Hamburgue Suculento" class="image-large ">
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. PROMOÇÕES -->
+        <section id="promocoes" class="promocoes py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Melhor qualidade para as suas promoções</h2>
+                <p class="text-muted text-center ">*Cheque o Cardapio Primeiro antes de Consumir qualquer alimento,
+                    agradecemos a preferencia.</p>
+
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <img src="/img/Hambúrguer_Simples_202604071508.jpeg"
+                                    alt="Hamburguer Simples pão carne e queijo" class="card-image-medium">
+                                <div class="card-image mb-3">
+                                    <span class="text-muted">Hamburguer artesanal Simples contem: <br>
+                                        - Pão <br>
+                                        - Tomate <br>
+                                        - Alface <br>
+                                        - Cebola <br>
+                                        - Queijo <br>
+                                        - Carne <br>
+                                        - Molho da Casa <br>
+                                    </span>
+                                </div>
+                                <h5>Hambúrguer Simples</h5>
+                                <p class="text-success fw-bold fs-5">R$ 12,90</p>
+                                <button class="btn-custom w-100">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <img src="/img/Hambúrguer_Duplo_202604071509.jpeg"
+                                    alt="Hamburguer Duplo grande com mais carne" class="card-image-medium">
+                                <div class="card-image mb-3">
+                                    <span class="text-muted">Hamburguer artesanal Duplo contem: <br>
+                                        - Pão <br>
+                                        - Tomate <br>
+                                        - Alface <br>
+                                        - Cebola <br>
+                                        - Picles <br>
+                                        - Bacon <br>
+                                        - Queijo 2 <br>
+                                        - Carne 2 <br>
+                                        - Molho da Casa <br>
+                                    </span>
+                                </div>
+                                <h5>Hambúrguer Duplo</h5>
+                                <p class="text-success fw-bold fs-5">R$ 18,90</p>
+                                <button class="btn-custom w-100">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <img src="/img/Hambúrguer_Bacon_202604071509.jpeg"
+                                    alt="Hamburguer Bacon sabor bacon ou com bacon você quem decide"
+                                    class="card-image-medium">
+                                <div class="card-image mb-3">
+                                    <span class="text-muted">Hamburguer artesanal Bacon contem: <br>
+                                        - Pão <br>
+                                        - Tomate <br>
+                                        - Cebola <br>
+                                        - Alface <br>
+                                        - Queijo <br>
+                                        - Bacon (Muito Bacon) <br>
+                                        - Carne <br>
+                                        - Molho da Casa <br>
+                                    </span>
+                                </div>
+                                <h5>Hambúrguer Bacon</h5>
+                                <p class="text-success fw-bold fs-5">R$ 22,90</p>
+                                <button class="btn-custom w-100">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SOBRE (Container menor verde) -->
+        <section id="sobre" class="py-5">
+            <div class="container">
+                <div class="green-box text-center">
+                    <h4 class="mb-4">Sobre</h4>
+                    <p>Nossa Hamburgueria foi criada em 2026 apenas como um site, nosso fundador decidiu abrir a
+                        hamburgueria logo depois, após isso ele otimizou o site para ter essa bela aparencia A Hero
+                        Complex esta com tudo.</p>
+                    <hr>
+                    <h5>Benefícios</h5>
+                    <p>Além de Um alimento 100% feito por nós, todos os alimentos de ótima qualidade, sempre
+                        esterelizamos tudo pelo menos 3 vezes na semana, você pode receber benefícios com nosso catalogo
+                        de promoção e quand você se torna um associado recebe mais ainda, podendo ter até uma galeria
+                        própria no nosso complexo. </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. CONTATOS -->
+        <section id="contatos" class="py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Container maior esquerdo -->
+                    <div class="col-lg-7">
+                        <div class="container-dark p-5 text-center">
+                            <h4 class="text-white">
+                                Pergunte Aqui!
+                                <div class="textarea-container">
+                                    <label class="textarea-label">Sua mensagem ou pergunta:</label>
+                                    <textarea id="mensagem" class="textarea-box"
+                                        placeholder="Escreva sua mensagem aqui..." rows="6" required></textarea>
+                                </div>
+                            </h4>
+                        </div>
+                    </div>
+
+                    <!-- Container direito - Formulário -->
+                    <div class="col-lg-5">
+                        <div class="container-dark p-4">
+                            <h5 class="text-white text-center mb-4">
+                                Lugar para colocar<br>
+                                o Email e o nome<br>
+                                para saber quem enviou a mensagem
+                            </h5>
+                            <form id="contactForm">
+                                <!-- Nome -->
+                                <div class="mb-3">
+                                    <textarea type="nome" id="nome" class="textarea-box"
+                                        placeholder="Seu Nome:" rows="6" required></textarea>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="mb-3">
+                                    <textarea type="email" id="email" class="textarea-box"
+                                        placeholder="Seu Email:" required></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <button id="btnEnviar" class="btn-custom w-100 py-3 mt-3">enviar tudo</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <p class="mb-0 fw-bold fs-5">
+                       © Impresa de produtos alimentares - 2026 <br>
+                       Direitos reservados apenas a Hero Complex, complexo de Hamburgueria <br>
+                       Localização Cidade:Araçatuba Rua:Daondejudasperdeuasbotas Bairro:seilaonde Numero:696# <br>
+                    </p>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <div class="d-flex justify-content-lg-end gap-3 flex-wrap">
+                        <a href="#home" class="btn btn-light rounded-pill">Home</a>
+                        <a href="#promocoes" class="btn btn-light rounded-pill">Promoção</a>
+                        <a href="#sobre" class="btn btn-light rounded-pill">Sobre</a>
+                        <a href="#contatos" class="btn btn-light rounded-pill">Contatos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
